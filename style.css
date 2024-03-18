@@ -1,19 +1,20 @@
 .header{
-    background-color: #c1ffd4;
+    background: linear-gradient(#6c5e86, #ffe4b4);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 140%;
-    color: #113545;
+    color: #2e2b37;
     text-align: center;
 }
 
 .body{
-    background-color: #e1f4ef;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #113545;
+    background: linear-gradient(#e08384, #6c5e86 );
+    color: #000000;
+    font-size: x-large;
 }
 
 .botones{
     text-align: center;
+    border-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 140%;
     color: #113545
@@ -27,4 +28,9 @@
 .footer{
     margin-top:130px;
 }
+
+.bloque{
+    
+}
+
 
