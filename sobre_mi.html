@@ -8,6 +8,14 @@
       #subrayado {
         text-decoration: none;
       }
+      .redes{
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+      }
+      .centrado-img{
+        align-items: center;
+      }
     </style>
     <link
       rel="shortcut icon"
@@ -18,57 +26,61 @@
   </head>
 <body class="body">
   <header class="header">
-    <hr>
     <h1>Proyecto WEB - Jose Albeiro Sánchez Ibañez</h1>
-    <span>
-      <h4>Redes sociales de contacto</h4>
-      <a href="https://es-la.facebook.com/albeiro.sanchez.71" id="subrayado" target="_blank">
-        <button class="Redes">
+    <span class="redes">
+      <a
+        href="https://es-la.facebook.com/albeiro.sanchez.71"
+        id="subrayado"
+        target="_blank">
+        <button>
           <img
             src="iconos/facebook.png"
             alt="Facebook"
-            width="50"
-            height="50"
-          />
-        </button>
+            width="20"
+            height="20"/>
+</button>
       </a>
-      <a href="https://www.instagram.com/jasanchez8801/" id="subrayado" target="_blank">
+      <a
+        href="https://www.instagram.com/jasanchez8801/"
+        id="subrayado"
+        target="_blank">
         <button>
           <img
             src="iconos/insta.png"
             alt="Instagram"
-            width="50"
-            height="50"
-          />
+            width="30"
+            height="20"/>
         </button>
       </a>
       <a
-        href="https://www.linkedin.com/in/albeiro-sánchez-940b77233" id="subrayado"
-        target="_blank"
-      >
+        href="https://www.linkedin.com/in/albeiro-sánchez-940b77233"
+        id="subrayado"
+        target="_blank">
         <button>
           <img
             src="iconos/linkedin.png"
             alt="Linkedin"
-            width="50"
-            height="50"
+            width="20"
+            height="20"
           />
         </button>
       </a>
-      <a href="https://github.com/asanchez8801" id="subrayado" target="_blank">
+      <a
+        href="https://github.com/asanchez8801"
+        id="subrayado"
+        target="_blank"
+      >
         <button>
           <img
             src="iconos/logo-GitHub.png"
             alt="Linkedin"
-            width="50"
-            height="50"
+            width="30"
+            height="20"
           />
         </button>
       </a>
     </span>
-    <hr />
-  </header>
-</header>
+  </Header>
 <nav class="botones">
     <a href="index.html">
       <button class="botones">INICIO</button>
@@ -76,15 +88,19 @@
 </nav> 
     <main>
         <h2>Sobre Mí</h2> <!--destacar frase celebre con blockquote-->
+        <div class="centrado-img">
+        
+      </div>
         <h4>Información Personal</h4> 
+        <div>
         <p>Soy bogotano, tengo 32 años, esposo y padre de una niña de 4 años, resido en la ciudad de Bogotá. 
           De profesion soy Ingeniero de Sistemas</p>
-         <span> 
         <p>Provengo de familia cundinamarqués, de un municipio no muy conocido llamado <em>Guayabal De siquima</em>.
           Para los que no conozcan, les dejo la ubicación.
         </p>
+      </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63605.00319915463!2d-74.51808912308711!3d4.88720876323398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e409ded33f2b681%3A0xf3706a7ca6669966!2sGuayabal%20de%20S%C3%ADquima%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1710532630595!5m2!1ses-419!2sco" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </span>  
+        
         <h4>Mis Estudios:</h4>
           <table>
            <tr class="tablas">
@@ -117,8 +133,7 @@
     <br>
     <br>
     <br>
-    <footer>
-      <hr>
+    <footer class="footer">
       <div>
       <p>Autor: Jose Albeiro Sánchez Ibañez - 2024</p>
     </div>
