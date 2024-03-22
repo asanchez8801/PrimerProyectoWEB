@@ -5,8 +5,14 @@
 }
 body {
   margin: 0;
+  background-image: url("Imagenes/paisaje-noche.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
 }
-.contenedor {
+.contenido {
   width: auto;
   height: auto;
   display: flex;
@@ -14,8 +20,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  margin-top: 100px;
+  gap: 50px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 .menu-inicial {
   width: auto;
@@ -23,12 +30,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .botones{
     text-align: center;
     border-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 140%;
+    font-size: 100%;
     color: #113545;
     
 }
